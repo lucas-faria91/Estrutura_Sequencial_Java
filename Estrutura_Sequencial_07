@@ -1,0 +1,27 @@
+package Estrutura_Sequencial;
+
+import java.util.Scanner;
+
+public class Exercício07 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		double salarioAtual, salarioMinimo, quantSalarios;
+
+		System.out.print("Digite o valor do salário mínimo atual: ");
+		salarioMinimo = input.nextDouble();
+
+		System.out.print("Digite o valor do seu salário bruto: ");
+		salarioAtual = input.nextDouble();
+
+		quantSalarios = salarioAtual / salarioMinimo;
+
+		System.out.format("Você recebe: %.2f", quantSalarios);
+		System.out.println(" salários mínimos");
+
+		input.close();
+
+	}
+
+}

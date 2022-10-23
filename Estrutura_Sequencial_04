@@ -1,0 +1,24 @@
+package Estrutura_Sequencial;
+
+import java.util.Scanner;
+
+public class Exercício04 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		Double salario, porcentagem, aumento;
+
+		System.out.print("Digite o salário atual: ");
+		salario = input.nextDouble();
+
+		System.out.print("Digite a porcentagem de aumento: ");
+		porcentagem = input.nextDouble();
+
+		aumento = (salario * porcentagem / 100);
+		System.out.print("O valor do salário com o aumento é: " + (aumento + salario));
+
+		input.close();
+	}
+
+}

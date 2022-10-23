@@ -1,0 +1,22 @@
+package Estrutura_Sequencial;
+
+import java.util.Scanner;
+
+public class Exercício06 {
+
+	public static void main(String[] args) {
+		// Programa para entrar com grau celsius e converter para fahrenheit.
+		Scanner input = new Scanner(System.in);
+
+		double grauCelsius;
+
+		System.out.print("Digite a temperatura em grau celcius: ");
+		grauCelsius = input.nextDouble();
+
+		System.out.print("A temperatura em fahrenheit é ");
+		System.out.print((grauCelsius * 1.80) + 32);
+
+		input.close();
+	}
+
+}

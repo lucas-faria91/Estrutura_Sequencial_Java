@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class Exercício02 {
 
 	public static void main(String[] args) {
-		// Programa para calcular a idade de uma pessoa no ano atual e em 2050.
-
 		int anoNascimento, anoAtual;
 
 		Scanner input = new Scanner(System.in);

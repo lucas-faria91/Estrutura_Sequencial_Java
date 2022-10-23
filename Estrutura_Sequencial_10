@@ -1,0 +1,26 @@
+package Estrutura_Sequencial;
+
+import java.util.Scanner;
+
+public class Exercício10 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		double raio, comprimento, area, volume;
+
+		System.out.print("Digite o valor do raio: ");
+		raio = input.nextDouble();
+
+		comprimento = 2 * Math.PI * raio;
+		area = Math.PI * Math.pow(raio, 2);
+		volume = (4 * Math.PI * Math.pow(raio, 3)) / 3;
+
+		System.out.format("O valor do comprimento do círculo é: %.2f \n", comprimento);
+		System.out.format("O valor da área do círculo é: %.2f \n", area);
+		System.out.format("O valor do volume do cículo é: %.2f \n", volume);
+
+		input.close();
+	}
+
+}

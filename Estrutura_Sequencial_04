@@ -7,7 +7,7 @@ public class Exercício04 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		Double salario, porcentagem, aumento;
+		double salario, porcentagem, aumento;
 
 		System.out.print("Digite o salário atual: ");
 		salario = input.nextDouble();

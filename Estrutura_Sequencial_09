@@ -1,0 +1,29 @@
+package Estrutura_Sequencial;
+
+import java.util.Scanner;
+
+public class Exercício09 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		double cateto1, cateto2, hipotenusa;
+
+		System.out.print("Digite o valor do primeiro cateto: ");
+		cateto1 = input.nextDouble();
+
+		cateto1 = Math.pow(cateto1, 2);
+
+		System.out.print("Digite o valor do segundo cateto: ");
+		cateto2 = input.nextDouble();
+    
+		cateto2 = Math.pow(cateto2, 2);
+
+		hipotenusa = cateto1 + cateto2;
+
+		System.out.println("O valor da hipotenusa é: " + Math.sqrt(hipotenusa));
+
+		input.close();
+	}
+
+}

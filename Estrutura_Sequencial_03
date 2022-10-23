@@ -1,0 +1,22 @@
+package Estrutura_Sequencial;
+
+import java.util.Scanner;
+
+public class Exercício03 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		double dolar, cotacao;
+
+		System.out.print("Quantos dólares você tem? ");
+		dolar = input.nextDouble();
+
+		System.out.print("Qual a cotação atual do dólar? ");
+		cotacao = input.nextDouble();
+
+		System.out.print("O seu valor de dólares em reais é: " + cotacao * dolar);
+
+		input.close();
+	}
+
+}

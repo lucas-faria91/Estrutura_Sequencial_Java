@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Exercício06 {
 
 	public static void main(String[] args) {
-		// Programa para entrar com grau celsius e converter para fahrenheit.
 		Scanner input = new Scanner(System.in);
 
 		double grauCelsius;

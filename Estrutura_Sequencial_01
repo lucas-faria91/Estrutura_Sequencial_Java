@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Exercício01 {
 
 	public static void main(String[] args) {
-		// Programa para calcular a média de 3 notas.
 		Scanner input = new Scanner(System.in);
 		double nota1, nota2, nota3, média;
 
@@ -17,12 +16,6 @@ public class Exercício01 {
 
 		System.out.print("Entre com a 3ª nota: ");
 		nota3 = input.nextDouble();
-
-		/*
-		 * A média é calculada somando todas as notas e dividindo A divisão deve ser
-		 * feita a partir da quantidade de notas que entraram Se há três notas, soma as
-		 * três e divide por três. Se há cinco notas, soma as cinco e divide por cinco.
-		 */
 
 		média = (nota1 + nota2 + nota3) / 3;
 

@@ -1,0 +1,25 @@
+package Estrutura_Sequencial;
+
+import java.util.Scanner;
+
+public class Exercício08 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		double peso, aumento, diminuicao;
+
+		System.out.print("Digite seu peso atual: ");
+		peso = input.nextDouble();
+
+		aumento = (peso * 15 / 100);
+		diminuicao = (peso * 20 / 100);
+
+		System.out.println("Se você engordar 15%, seu novo peso será: " + (peso + aumento));
+		System.out.print("Se você emagrecer 20%, seu nomo peso será: " + (peso - diminuicao));
+
+		input.close();
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package Estrutura_Sequencial;
+
+import java.util.Scanner;
+
+public class Exercício05 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		double diagonalMaior, diagonalMenor;
+
+		System.out.print("Digite a diagonal maior do losango: ");
+		diagonalMaior = input.nextDouble();
+
+		System.out.print("Digite a diagonal menor do losango: ");
+		diagonalMenor = input.nextDouble();
+
+		System.out.println("A área do losango é: " + (diagonalMaior * diagonalMenor) / 2);
+
+		input.close();
+	}
+
+}
